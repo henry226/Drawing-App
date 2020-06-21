@@ -7,6 +7,7 @@ var rgbaColor = "rgb(0,0,0)";
 const pickr = Pickr.create({
     el: '.color-picker',
     theme: 'classic', // or 'monolith', or 'nano'
+    default: "rgb(0,0,0)",
 
     swatches: [
         'rgba(244, 67, 54, 1)',
