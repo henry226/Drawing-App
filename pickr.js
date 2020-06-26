@@ -58,8 +58,8 @@ window.addEventListener("load", () => {
     const ctx = canvas.getContext("2d");
 
     // Resizing
-    canvas.height = window.innerHeight - 90;
-    canvas.width = window.innerWidth - 34;
+    canvas.height = window.innerHeight - 81;
+    canvas.width = window.innerWidth - 5;
 
     // Variables
     let painting = false;
